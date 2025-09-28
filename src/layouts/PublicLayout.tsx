@@ -1,5 +1,4 @@
 // src/layouts/PublicLayout.tsx
-import FloatingNav  from "@/components/FloatingNav"
 import { Outlet } from "react-router-dom"
 
 export default function PublicLayout() {

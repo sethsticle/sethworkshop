@@ -2,13 +2,13 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { useEffect, useRef, useState } from "react"
 
 export default function PortfolioDark() {
-  const [isDark, setIsDark] = useState(true)
+  // const [isDark, setIsDark] = useState(true)
   const [activeSection, setActiveSection] = useState("")
   const sectionsRef = useRef<(HTMLElement | null)[]>([])
 
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", isDark)
-  }, [isDark])
+  // useEffect(() => {
+  //   document.documentElement.classList.toggle("dark", isDark)
+  // }, [isDark])
 
   //tracker and observer for sections
   useEffect(() => {
