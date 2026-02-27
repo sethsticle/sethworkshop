@@ -5,7 +5,8 @@ import PrivateLayout from "./layouts/PrivateLayout"
 import LoginPage from "./pages/LoginPage"
 import DashboardPage from "./pages/DashboardPage"
 import NotFound from "./pages/NotFound"
-import PortfolioDark from "./pages/PortfolioDark"
+import PortfolioDark from "./pages/PortfolioPage"
+import SWFMConfigViewer from "./pages/SWFMConfigViewer"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route element={<PublicLayout />}>
             <Route path="/" element={<PortfolioDark />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path='/swfm-diff' element={<SWFMConfigViewer />} />
           </Route>
 
           {/* Private routes */}

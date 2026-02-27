@@ -64,12 +64,12 @@ const data = [
 
 export default function FloatingNav() {
   return (
-    <div className='fixed bottom-2 left-1/2 max-w-full -translate-x-1/2 z-20'>
+    <div className='fixed bottom-6 left-1/2 max-w-full -translate-x-1/2 z-20'>
       <Dock className='items-end pb-3'>
         {data.map((item, idx) => (
           <DockItem
             key={idx}
-            className='aspect-square rounded-full bg-gray-200 dark:bg-neutral-800'
+            className='aspect-square rounded-full bg-gray-200 dark:bg-background/90'
           >
             <DockLabel>{item.title}</DockLabel>
             <DockIcon>{item.icon}</DockIcon>
