@@ -39,21 +39,28 @@ document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" })
  
 
   const heroData = {
-    metaTitle: "PORTFOLIO | 2025",
+    metaTitle: "PORTFOLIO | 2026",
     name: "Seth Hendrikz",
     title: "BSc Computing Graduate",
     location: "Hillcrest, Durban, KZN",
     email: "seth.hendrikz@gmail.com",
     phone: "(081) 260 6055",
     website: "www.sethswork.shop",
-    duration: "2022 — Present",
-    currentEmployer: "@ Curro Hillcrest High School",
-    currentRole: "Recent BSc Computing Graduate and IT Facilitator",
-    focusSkills: ["Java", "SQL", "HTML", "React", "JavaScript", "Spring Boot", "APIs"],
+    duration: "2025 — Present",
+    currentEmployer: "@ Webdoor Website Solutions",
+    currentRole: "Recent BSc Computing Graduate and Junior Developer",
+    focusSkills: ["Java", "SQL", "HTML", "React", "JavaScript", "Spring Boot", "laravel", "APIs"],
     about: "Aspiring Full Stack Developer. Recently graduated with a BSc in Computing. Eager to contribute to innovative projects and further develop my skills in a dynamic tech environment.",
   }
 
   const workExperiences = [
+    {
+      year: "2025",
+      role: "Junior Developer",
+      company: "Webdoor Website Solutions",
+      description: "Developing and maintaining websites for clients using modern web technologies.",
+      tech: ["HTML", "CSS", "PHP" ,"JavaScript", "Wordpress"],
+    },
     {
       year: "2022",
       role: "IT, Coding & Robotics Facilitator",
